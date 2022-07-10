@@ -1,5 +1,6 @@
 var express = require('express');
 var exphbs  = require('express-handlebars');
+const PORT = process.env.PORT || 3001;
 
 var app = express();
 
@@ -30,4 +31,4 @@ app.get('/final',(req,res)=>{
 
 
 
-app.listen(3001,()=>{console.log(`http://localhost:${3001}`)});
+app.listen(PORT,()=>{console.log(`http://localhost:${PORT}`)});
