@@ -9,7 +9,7 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 app.get('/', function (req, res) {
-    console.log("Hiii")
+    console.log("Hiii");
     res.render('index');
 });
 
