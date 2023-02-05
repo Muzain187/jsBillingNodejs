@@ -10,8 +10,8 @@ app.set('view engine', 'handlebars');
 
 app.get('/', function (req, res) {
     console.log("Hiii");
-    res.send("hii")
-    // res.render('index');
+    // res.send("hii")
+    res.render('index');
 });
 
 app.get('/create',(req,res)=>{
